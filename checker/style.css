@@ -1,0 +1,44 @@
+body {
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+}
+
+img {
+  width: 1rem;
+  height: auto;
+  display: inline;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box {
+  padding: .5rem;
+  border: solid 3px aliceblue;
+  margin: 5px;
+  border-radius: 5px;
+  flex-grow: 1;
+}
+
+.price {
+  width: 130px;
+}
+
+.tokens {
+  padding: .5rem;
+  border: solid 3px aliceblue;
+  margin: 5px;
+  border-radius: 5px;
+  width: 120px;
+}
+
+button {
+  background-color: gray;
+  border-radius: 5px;
+  color: aliceblue;
+  padding: .5rem;
+}

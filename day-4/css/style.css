@@ -1,0 +1,213 @@
+html {
+	text-align: center;
+	color: #333;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Boxes and Flex */
+
+.game {
+	display: flex;
+	height: 80%;
+}
+
+.flex {
+	display: flex;
+	height: 100%;
+}
+
+.logo {
+  width: 3rem;
+  height: auto;
+  padding: 1rem 0;
+}
+
+.game {
+	display: flex;
+	height: 100%;
+}
+
+.container {
+	background-color: #37b0c9;
+	width: 850px;
+	margin: 0 auto;
+	padding: 10px 30px;
+	box-shadow: 0 0 8px black;
+	height: 750px;
+}
+
+footer {
+	background-color: #37b0c9;
+	width: 850px;
+	margin: 10px auto;
+	padding: 10px 30px;
+	box-shadow: 0 0 8px black;
+}
+
+.painting {
+	width: 75%;
+	height: 85%;
+	border: #351858 5px solid;
+	border-radius: 3px;
+	margin: 5px;
+}
+
+.pony-palette {
+	padding: 5px;
+	border: #351858 5px solid;
+	border-radius: 3px;
+	margin: 5px;	
+	background-color: #ec058e;
+	height: 60%;
+}
+
+button {
+	border-radius: 5px;
+	background-color: #f140a9;
+	color: #351858;
+	border: #351858 solid 3px;
+	padding: 1rem;
+	font-weight: bolder;
+	margin: 1rem auto;
+}
+
+.clear {
+	width: 90%;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+.home-link {
+  text-decoration: none;
+  font-family: 'Mukta', sans-serif;
+	font-weight: bolder;
+}
+
+.home{
+	background-color: #f140a9;
+	color: #351858;
+	border: #351858 solid 3px;
+  border-radius: 8px;
+  margin: 0 auto;
+  text-align: center;
+  margin: 3rem auto;
+  padding: 1em 0;
+  width: 600px;
+}
+
+/* backgrounds */
+
+.backgrounds {
+	height: 100px;
+	width: 100px;
+	cursor: pointer;
+	background-size: contain;;
+	background-position: center;
+	background-repeat: no-repeat;
+	border: #351858 5px solid;
+	border-radius: 3px;
+	margin: 5px;
+}
+
+#applejack {
+	background-image: url(../img/applejack.webp);
+}
+
+#fluttershy {
+	background-image: url(../img/fluttershy.png);
+}
+
+#twilight {
+	background-image: url(../img/twilight-sparkle.png);
+}
+
+#pinkypie {
+	background-image: url(../img/pinky-pie.png);
+}
+
+#rainbowdash {
+	background-image: url(../img/rainbow-dash.png);
+}
+
+body {
+	background-image: url("../img/forest.WEBP");
+	background-size: cover;
+}
+
+.block {
+	display: block;
+}
+
+	/* Paiting */
+
+.row {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 5px;
+	height: 100%;
+}
+
+.row-1 {
+	height: 15%;
+}
+.row-2 {
+	height: 26%;
+}
+.row-3 {
+	height: 30%;
+}
+.row-4 {
+	height: 25%;
+}
+
+.box {
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	border: 10px solid #822b99;
+	margin: 5px;
+	border-radius: 3px;
+	}
+
+.box:hover {
+		cursor: pointer;
+	}
+
+.box20 {
+	width: 20%;
+}
+
+.box25 {
+	width: 25%;
+}
+
+.box30 {
+	width: 30%;
+}
+
+.box40 {
+	width: 40%;
+}
+
+/* Fonts */
+h1 {
+	font-size: 38px;
+	text-shadow: -1px -1px 0 rgba(255,255,255,0.5), 1px 1px 0 rgba(0,0,0,0.5);
+}
+
+footer a {
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: #7ccd24;
+	cursor: pointer;
+}
+
+
+footer a:visited {
+	color: #4f4f4f;
+}

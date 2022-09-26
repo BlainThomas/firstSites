@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Mondrian | Blain Thomas</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./stopwatch.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon.jpg" />
+  </head>
+
+  <body>
+    <nav class="home"><a class="home-link" href="../index.html">Home</a></nav>
+    <div id="container">
+
+      <div id="clock">
+        <div class="time_unit">
+          <div class="digit">
+            <div class="hour_tens bar hor top">
+              <div class="tri_left"></div>
+              <div class="tri_right"></div>
+            </div>
+            <div class="hour_tens bar hor mid">
+              <div class="tri_left"></div>
+              <div class="tri_right"></div>
+            </div>
+            <div class="hour_tens bar hor bottom">
+              <div class="tri_left"></div>
+              <div class="tri_right"></div>
+            </div>
+            <div class="hour_tens bar ver top left">
+              <div class="tri_top"></div>
+              <div class="tri_bottom"></div>
+            </div>
+            <div class="hour_tens bar ver top right">
+              <div class="tri_top"></div>
+              <div class="tri_bottom"></div>
+            </div>
+            <div class="hour_tens bar ver bottom left">
+              <div class="tri_top"></div>
+              <div class="tri_bottom"></div>
+            </div>
+            <div class="hour_tens bar ver bottom right">
+              <div class="tri_top"></div>
+              <div class="tri_bottom"></div>
+            </div>
+          </div>
+          <div class="digit">
+            <div class="hour_ones bar hor top">
+              <div class="tri_left"></div>
+              <div class="tri_right"></div>
+            </div>
+            <div class="hour_ones bar hor mid">
+              <div class="tri_left"></div>
+              <div class="tri_right"></div>
+            </div>
+            <div class="hour_ones bar hor bottom">
+              <div class="tri_left"></div>
+              <div class="tri_right"></div>
+            </div>
+            <div class="hour_ones bar ver top left">
+              <div class="tri_top"></div>
+              <div class="tri_bottom"></div>
+            </div>
+            <div class="hour_ones bar ver top right">
+              <div class="tri_top"></div>
+              <div class="tri_bottom"></div>
+            </div>
+            <div class="hour_ones bar ver bottom left">
+              <div class="tri_top"></div>
+              <div class="tri_bottom"></div>
+            </div>
+            <div class="hour_ones bar ver bottom right">
+              <div class="tri_top"></div>
+              <div class="tri_bottom"></div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="colon">:</div>
+  
+        <div class="time_unit">
+          <div class="digit">
+            <div class="min_tens bar hor top">
+              <div class="tri_left"></div>
+              <div class="tri_right"></div>
+            </div>
+            <div class="min_tens bar hor mid">
+              <div class="tri_left"></div>
+              <div class="tri_right"></div>
+            </div>
+            <div class="min_tens bar hor bottom">
+              <div class="tri_left"></div>
+              <div class="tri_right"></div>
+            </div>
+            <div class="min_tens bar ver top left">
+              <div class="tri_top"></div>
+              <div class="tri_bottom"></div>
+            </div>
+            <div class="min_tens bar ver top right">
+              <div class="tri_top"></div>
+              <div class="tri_bottom"></div>
+            </div>
+            <div class="min_tens bar ver bottom left">
+              <div class="tri_top"></div>
+              <div class="tri_bottom"></div>
+            </div>
+            <div class="min_tens bar ver bottom right">
+              <div class="tri_top"></div>
+              <div class="tri_bottom"></div>
+            </div>
+          </div>
+          <div class="digit">
+            <div class="min_ones bar hor top">
+              <div class="tri_left"></div>
+              <div class="tri_right"></div>
+            </div>
+            <div class="min_ones bar hor mid">
+              <div class="tri_left"></div>
+              <div class="tri_right"></div>
+            </div>
+            <div class="min_ones bar hor bottom">
+              <div class="tri_left"></div>
+              <div class="tri_right"></div>
+            </div>
+            <div class="min_ones bar ver top left">
+              <div class="tri_top"></div>
+              <div class="tri_bottom"></div>
+            </div>
+            <div class="min_ones bar ver top right">
+              <div class="tri_top"></div>
+              <div class="tri_bottom"></div>
+            </div>
+            <div class="min_ones bar ver bottom left">
+              <div class="tri_top"></div>
+              <div class="tri_bottom"></div>
+            </div>
+            <div class="min_ones bar ver bottom right">
+              <div class="tri_top"></div>
+              <div class="tri_bottom"></div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="colon">:</div>
+  
+        <div class="time_unit">
+          <div class="digit">
+            <div class="sec_tens bar hor top">
+              <div class="tri_left"></div>
+              <div class="tri_right"></div>
+            </div>
+            <div class="sec_tens bar hor mid">
+              <div class="tri_left"></div>
+              <div class="tri_right"></div>
+            </div>
+            <div class="sec_tens bar hor bottom">
+              <div class="tri_left"></div>
+              <div class="tri_right"></div>
+            </div>
+            <div class="sec_tens bar ver top left">
+              <div class="tri_top"></div>
+              <div class="tri_bottom"></div>
+            </div>
+            <div class="sec_tens bar ver top right">
+              <div class="tri_top"></div>
+              <div class="tri_bottom"></div>
+            </div>
+            <div class="sec_tens bar ver bottom left">
+              <div class="tri_top"></div>
+              <div class="tri_bottom"></div>
+            </div>
+            <div class="sec_tens bar ver bottom right">
+              <div class="tri_top"></div>
+              <div class="tri_bottom"></div>
+            </div>
+          </div>
+          <div class="digit">
+            <div class="sec_ones bar hor top">
+              <div class="tri_left"></div>
+              <div class="tri_right"></div>
+            </div>
+            <div class="sec_ones bar hor mid">
+              <div class="tri_left"></div>
+              <div class="tri_right"></div>
+            </div>
+            <div class="sec_ones bar hor bottom">
+              <div class="tri_left"></div>
+              <div class="tri_right"></div>
+            </div>
+            <div class="sec_ones bar ver top left">
+              <div class="tri_top"></div>
+              <div class="tri_bottom"></div>
+            </div>
+            <div class="sec_ones bar ver top right">
+              <div class="tri_top"></div>
+              <div class="tri_bottom"></div>
+            </div>
+            <div class="sec_ones bar ver bottom left">
+              <div class="tri_top"></div>
+              <div class="tri_bottom"></div>
+            </div>
+            <div class="sec_ones bar ver bottom right">
+              <div class="tri_top"></div>
+              <div class="tri_bottom"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <button id="start">Start</button>
+      <button id="stop">Stop</button>
+      <button id="reset">Reset</button>
+  
+  </div>
+    <footer>
+      <h2>Blain Thomas</h2>
+      <a onclick="copy()" id="copy">BlainThomas12@gmail.com</a>
+      <button class="block space" href = "mailto: blainthomas12@gmail.com">Send Email</button>
+      <div class="phone">(208)298-7621</div>
+      <a class="block" href="https://twitter.com/RealDev_on"><img class="logo" src="../day-1/img/twitter-link.png"></a>
+    </footer>
+  </body>
+</html>

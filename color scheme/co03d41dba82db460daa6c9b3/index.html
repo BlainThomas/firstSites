@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>HTML 5 Boilerplate</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body class="container">
+        <h1>Color generator</h1>
+        <div>
+            <form>
+                <input type="color" id="color-input">
+                <label for="selected-scheme">Choose a scheme:</label>
+                    <select id="selected" name="selected-scheme">
+                    <option value="monochrome">Monochrome</option>
+                    <option value="monochrome-dark">Monochrome Dark</option>
+                    <option value="analogic-complement">Analogic Complement</option>
+                    <option value="triad">Triad</option>
+                    <option value="quad">Quad</option>
+                    </select>
+                <button id="submit">Submit</button>
+            </form>
+            <div class="column" id="scheme">
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

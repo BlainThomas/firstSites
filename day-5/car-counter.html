@@ -1,0 +1,91 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+
+        <div class="container">
+            <nav class="home"><a class="home-link" href="../index.html">Home</a></nav>
+        </div>
+
+        <main class="container">
+            <h1>Count the Cars by color!</h1>
+            <h2 id="count-total-el">Total saved count: 0</h2>
+
+            <div class="flex">
+
+                <div class="white">
+                    <h2 id="count-white-el">0</h2>
+                    <button id="increment-white-btn" onclick="incrementWhite()">INCREMENT</button>
+                    <button id="save-white-btn" onclick="saveWhite()">SAVE</button>
+                    <button id="clear-white-btn" onclick="clearWhite()">Clear</button>
+                    <button id="clear-white-all-btn" onclick="clearWhiteAll()">Clear All</button>
+                    <p>Previous entries:</p>
+                    <p class="count" id="save-white-el"> </p>
+                </div>
+
+                <div class="black">
+                    <h2 id="count-black-el">0</h2>
+                    <button id="increment-black-btn" onclick="incrementBlack()">INCREMENT</button>
+                    <button id="save-black-btn" onclick="saveBlack()">SAVE</button>
+                    <button id="clear-black-btn" onclick="clearBlack()">Clear</button>
+                    <button id="clear-black-all-btn" onclick="clearBlackAll()">Clear All</button>
+                    <p>Previous entries:</p>
+                    <p class="count" id="save-black-el"></p>
+                </div>
+
+                <div class="blue">
+                    <h2 id="count-blue-el">0</h2>
+                    <button id="increment-blue-btn" onclick="incrementBlue()">INCREMENT</button>
+                    <button id="save-blue-btn" onclick="saveBlue()">SAVE</button>
+                    <button id="clear-blue-btn" onclick="clearBlue()">Clear</button>
+                    <button id="clear-blue-all-btn" onclick="clearBlueAll()">Clear All</button>
+                    <p>Previous entries: </p>
+                    <p class="count" id="save-blue-el"></p>
+                </div>
+            </div>
+            <div class="flex">
+                <div class="red">
+                    <h2 id="count-red-el">0</h2>
+                    <button id="increment-red-btn" onclick="incrementRed()">INCREMENT</button>
+                    <button id="save-red-btn" onclick="saveRed()">SAVE</button>
+                    <button id="clear-red-btn" onclick="clearRed()">Clear</button>
+                    <button id="clear-red-all-btn" onclick="clearRedAll()">Clear All</button>
+                    <p>Previous entries: </p>
+                    <p class="count" id="save-red-el"></p>
+                </div>
+
+                <div class="yellow">
+                    <h2 id="count-yellow-el">0</h2>
+                    <button id="increment-yellow-btn" onclick="incrementYellow()">INCREMENT</button>
+                    <button id="save-yellow-btn" onclick="saveYellow()">SAVE</button>
+                    <button id="clear-yellow-btn" onclick="clearYellow()">Clear</button>
+                    <button id="clear-yellow-all-btn" onclick="clearYellowAll()">Clear All</button>
+                    <p>Previous entries: </p>
+                    <p class="count" id="save-yellow-el"></p>
+                </div>
+
+                <div class="other">
+                    <h2 id="count-other-el">0</h2>
+                    <button id="increment-other-btn" onclick="incrementOther()">INCREMENT</button>
+                    <button id="save-other-btn" onclick="saveOther()">SAVE</button>
+                    <button id="clear-other-btn" onclick="clearOther()">Clear</button>
+                    <button id="clear-other-all-btn" onclick="clearOtherAll()">Clear All</button>
+                    <p>Previous entries: </p>
+                    <p class="count" id="save-other-el"></p>
+                </div>
+                
+            </div>
+            <button id="clear-all-btn" onclick="clearAll()">Clear All</button>
+
+            <script src="./car-counter.js"></script>
+        </main>
+        <footer class="container">
+            <h3>Blain Thomas</h3>
+            <a onclick="copy()" id="copy">BlainThomas12@gmail.com</a>
+            <button class="block space" href="mailto:blainthomas12@gmail.com">Send Email</button>
+            <div class="phone">(208)298-7621</div>
+            <a class="block" href="https://twitter.com/RealDev_on"><img class="logo" src="../day-1/img/twitter-link.png"></a>
+          </footer>
+    </body>
+</html>

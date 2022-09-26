@@ -1,0 +1,122 @@
+
+.logo {
+  width: 3rem;
+  height: auto;
+  padding: 1rem 0;
+}
+
+.email {
+  display: block;
+  margin: 1rem auto;
+}
+
+.flex {
+  display: flex;
+  margin: 0 auto;
+}
+
+.card {
+  width: 30%;
+  height: auto;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.total{
+  margin: 1rem auto;
+}
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+  background-image: url("../img/casino-background1.jpg");
+  background-size: cover;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  color: goldenrod;
+  margin: 0;
+  padding: 20px;
+}
+
+.scoreboard {background-color: #282828;
+  border: #040504 1rem solid;
+  border-radius: 8px;
+  margin: 0 auto;
+  width: 40%;
+}
+
+#message-el {
+  font-style: italic;
+}
+
+.controls {
+  margin: 20px;
+}
+
+h2 {
+  margin: 2rem;
+}
+
+button {
+  color: #016f32;
+  width: 150px;
+  background: goldenrod;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  border: none;
+  border-radius: 2px;
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
+
+.home{
+  background-color: #282828;
+  border: #040504 1rem solid;
+  border-radius: 8px;
+  margin: 0 auto;
+  text-align: center;
+  margin: 3rem auto;
+  padding: 1em 0;
+  width: 600px;
+}
+
+.footer-container {
+  background-color: #282828;
+  border: #040504 1rem solid;
+  border-radius: 8px;
+  margin: 2rem auto;
+  box-sizing: border-box;
+  width: 600px;
+}
+
+.home-link {
+  color: white;
+  text-decoration: none;
+  font-family: 'Mukta', sans-serif;
+}
+
+.felt {
+  background-image: url("../img/table.png");
+  background-size:800px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px 3px black inset;
+  padding-bottom: 1.5rem;
+  width: 750px;
+  margin: 0 auto 25px;
+}
+
+.border {
+  border-radius: 5px;
+  padding: 25px;
+  background: #4f301f;
+  margin: 5rem auto;
+  width: 800px;
+}
+
+button:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,99 @@
+html {
+  font-family: 'Mukta', sans-serif;
+  text-align: center;
+  color: red;
+  font-size: 1.25rem;
+}
+
+body {
+  background-image: url(../img/carbon_fibre.png);
+}
+
+footer {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* blocks and Layout */
+
+.list {
+  list-style-position: inside;
+  margin: 1rem auto;
+  color: maroon;
+  font-weight: 700;
+}
+
+.container-list {
+  background-color: #282828;
+  border: #040504 1rem solid;
+  border-radius: 8px;
+  margin: 2rem auto;
+  box-sizing: border-box;
+  max-width: 400px;
+}
+
+.container {
+  background-color: #282828;
+  border: #040504 1rem solid;
+  border-radius: 8px;
+  margin: 2rem auto;
+  box-sizing: border-box;
+}
+
+.sub-note {
+  margin: 1rem;
+}
+
+.website {
+  text-decoration: none;
+  color: red;
+}
+
+.logo {
+  width: 3rem;
+  height: auto;
+  padding: 1rem 0;
+}
+
+/* font */
+
+h1 {
+  margin-top: 2rem;
+}
+
+h2 {
+  margin: 0;
+  display: block;
+  padding: 1rem 0;
+  border-bottom: #040504 solid 10px;
+}
+
+.phone {
+  font-size: .75rem;
+  margin-top: 1em;
+}
+
+/* Buttons */
+
+button {
+  margin: 1rem auto 0;
+  display: block;
+  background-color: #282828;
+  border: #040504 3px solid;
+  border-radius: 3px;
+  color: red;
+}
+
+#copy {
+  display: block;
+  margin: 1rem 0;
+}
+
+#copy:hover {
+  cursor: pointer;
+}

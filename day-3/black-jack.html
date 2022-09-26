@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Black Jack | Blain Thomas</title>
+    <link href="./css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon.jpg" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+  </head>
+  <body>
+    <nav class="home"><a class="home-link" href="../index.html">Home</a></nav>
+    <main class="border">
+      <div class="felt">
+        <h1>Blackjack</h1>
+        <div>
+          <div>
+            <h2 id="message-el">Want to play a round?</h2>
+            <div class="flex">
+              <div class="scoreboard">
+                <div id="player-cards-el">
+                  <img class="card" src="./img/PNG-cards-1.3/NFTd.png"/>
+                  <img class="card" src="./img/PNG-cards-1.3/NFTd.png"/>
+                </div>
+                <div class="total" id="player-sum-el">Player total:</div>
+              </div>
+              <div class="scoreboard">
+                <div id="computer-cards-el">
+                  <img class="card" src="./img/PNG-cards-1.3/NFTd.png"/>
+                  <img class="card" src="./img/PNG-cards-1.3/NFTd.png"/>
+                </div>
+                <div class="total" id="computer-sum-el">Computer total:</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="controls">
+          <button onclick="startGame()">START GAME</button>
+          <button onclick="newCard()">NEW CARD</button>
+        </div>
+        <div class="controls">
+          <button onclick="flipCards()">Flip Cards</button>
+        </div>
+        <p id="player-el"></p>
+        <script src="./black-jack.js"></script>
+      </div>
+    </main>
+    <footer class="footer-container">
+      <h2>Blain Thomas</h2>
+      <div><a onclick="copy()" id="copy">BlainThomas12@gmail.com</a></div>
+      <button class="email" href = "mailto: blainthomas12@gmail.com">Send Email</button>
+      <div class="phone">(208)298-7621</div>
+      <a class="block" href="https://twitter.com/RealDev_on"><img class="logo" src="./img/twitter-link.png"></a>
+    </footer>
+  </body>
+</html>

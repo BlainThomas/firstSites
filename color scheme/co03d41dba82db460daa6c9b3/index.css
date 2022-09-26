@@ -1,0 +1,28 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.box {
+    width: 90%;
+    margin: 10px auto
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}

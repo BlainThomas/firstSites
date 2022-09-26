@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Mondrian | Blain Thomas</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./mondrian.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon.jpg" />
+  </head>
+
+  <body>
+    <nav class="home"><a class="home-link" href="../index.html">Home</a></nav>
+    <div class="container">
+      <h1>Pick an pony from the side and put it in a pin!</h1>
+      <div class="game">
+        <div class="pony-palette">
+          <div>
+            <div class="flex">
+              <div>
+                <div class="backgrounds" id="applejack"></div>
+                <div class="backgrounds" id="fluttershy"></div>
+                <div class="backgrounds" id="twilight"></div>
+              </div>
+              <div>
+                <div class="backgrounds" id="pinkypie"></div>
+                <div class="backgrounds" id="rainbowdash"></div>
+                <div class="blank backgrounds" id="white"></div>
+              </div>
+            </div>
+          </div>
+          <button class="clear" onclick="clearAll()">Clear All</button>
+        </div>
+        <div class="painting">
+          <div class="row-1 row">
+            <div class="box box25"></div>
+            <div class="box box25"></div>
+            <div class="box box30"></div>
+            <div class="box box20"></div>
+          </div>
+
+          <div class="row-2 row">
+            <div class="box box40"></div>
+            <div class="box box20"></div>
+            <div class="box box20"></div>
+          </div>
+
+          <div class="row-3 row">
+            <div class="box box25"></div>
+            <div class="box box25"></div>
+            <div class="box box25"></div>
+            <div class="box box25"></div>
+          </div>
+
+          <div class="row-4 row">
+            <div class="box box20"></div>
+            <div class="box box20"></div>
+            <div class="box box20"></div>
+            <div class="box box20"></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <footer>
+      <h2>Blain Thomas</h2>
+      <a onclick="copy()" id="copy">BlainThomas12@gmail.com</a>
+      <button class="block space" href="mailto:blainthomas12@gmail.com">Send Email</button>
+      <div class="phone">(208)298-7621</div>
+      <a class="block" href="https://twitter.com/RealDev_on"><img class="logo" src="../day-1/img/twitter-link.png"></a>
+    </footer>
+  </body>
+</html>

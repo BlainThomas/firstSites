@@ -1,0 +1,64 @@
+html {
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+.home{
+  background-color: #282828;
+  border: #040504 1rem solid;
+  border-radius: 8px;
+  margin: 0 auto;
+  text-align: center;
+  margin: 0 auto 2rem;
+  padding: 1em 0;
+}
+
+.logo {
+  width: 3rem;
+  height: auto;
+  padding: 1rem 0;
+}
+
+/* Font */
+
+h1 {
+  text-align: center;
+}
+
+.phone {
+  font-size: .75rem;
+  margin-top: 1em;
+}
+
+
+/* Blocks & Alignment */
+.secret {
+  padding: 10px 30px 30px 50px;
+	font-family: Monaco, Consolas, "Lucida Console", monospace;
+	font-size: 28px;
+	color: #333;
+}
+
+.top-container {
+  position: fixed;
+  width: 850px;
+}
+
+.bottom-container {
+	position: absolute;
+	top: 1484px;
+  height: 90vh;
+	width: 850px
+}
+
+footer {
+	position: absolute;
+	top: 1800px;
+}
+
+/* Buttons & Links */
+
+.home-link {  
+  color: red;
+  text-decoration: none;
+  font-family: 'Mukta', sans-serif;
+}
